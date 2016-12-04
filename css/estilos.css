@@ -1,0 +1,344 @@
+
+.clear{
+	clear: both;
+}
+
+
+.formulario_apartamento{
+	color: white;
+	background-color: green;
+ 	font-family: cursive;
+
+}
+
+.formulario_apartamento2{
+	color: green;
+	background-color: White;
+ 	font-family: cursive;
+
+}
+.formulario_bloque{
+	color: white;
+	background-color: green;
+ 	font-family: cursive;
+
+}
+
+.formulario_bloque2{
+	color: green;
+	background-color: White;
+ 	font-family: cursive;
+
+}
+.formulario_interior{
+	color: white;
+	background-color: green;
+ 	font-family: cursive;
+
+}
+
+.formulario_interior2{
+	color: green;
+	background-color: White;
+ 	font-family: cursive;
+
+}
+.formulario_pro{
+	color: white;
+	background-color: green;
+ 	font-family: cursive;
+
+}
+
+.formulario_pro2{
+	color: green;
+	background-color: White;
+ 	font-family: cursive;
+
+}
+.formulario_vis{
+	color: white;
+	background-color: green;
+ 	font-family: cursive;
+
+}
+
+.formulario_vis2{
+	color: green;
+	background-color: White;
+ 	font-family: cursive;
+
+}
+.PREVIEW{
+
+	width: 140px;
+	height: 100px;
+	text-align: right;
+}
+.doblecolunma
+{
+	float: left;
+	width: 130px;
+	height: 150px;
+	font-size: 10px;
+	padding-left: 40px;
+}
+.texto
+{
+	height: 14px;
+	font-size: 12px;
+	color: black;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+.aside
+{
+	float:left;
+	align-self: center;
+	width: 100%
+}
+
+.aside2
+{
+	padding: 40px;
+}
+
+.aside a
+{
+	color:#FBFCFC ;
+	margin-left:20px ;
+}
+
+.aside a:hover
+{
+	color: black;
+}
+.FI
+{
+	float: left;
+}
+
+.FD
+{
+	float: right;
+}
+.FC
+{
+	float: center;
+}
+.titulo{
+	position: center;
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+}
+.PREVIEW{
+ 
+	width: 205px;
+	height: 167px;
+	text-align: right;
+}
+#formulariopagos{
+	width: 500px;
+	height: 300px;
+	background: red;
+}
+
+
+#banner1{
+	margin-top: 10px;
+	padding-top:50px;
+	width : 100%;
+	height: 481px;
+	background: -webkit-linear-gradient(left, rgb(66, 132, 40) 0%, rgba(255,146,10,1) 100%);
+}
+
+
+
+#cssapartamento{
+	margin-top: 10px;
+	padding-top:50px;
+	width : 100%;
+	height: 481px;
+	background: -webkit-linear-gradient(left, rgb(66, 132, 40) 0%, rgba(255,146,10,1) 100%);
+}
+#cssbloque{
+	margin-top: 10px;
+	padding-top:50px;
+	width : 100%;
+	height: 481px;
+	background: -webkit-linear-gradient(left, rgb(66, 132, 40) 0%, rgba(255,146,10,1) 100%);
+}
+#cssinterior{
+	margin-top: 10px;
+	padding-top:50px;
+	width : 100%;
+	height: 481px;
+	background: -webkit-linear-gradient(left, rgb(66, 132, 40) 0%, rgba(255,146,10,1) 100%);
+}
+#csspropietario{
+	margin-top: 10px;
+	padding-top:50px;
+	width : 100%;
+	height: 481px;
+	background: -webkit-linear-gradient(left, rgb(66, 132, 40) 0%, rgba(255,146,10,1) 100%);
+}
+#cssresidente{
+	margin-top: 10px;
+	padding-top:50px;
+	width : 100%;
+	height: 481px;
+	background: -webkit-linear-gradient(left, rgb(66, 132, 40) 0%, rgba(255,146,10,1) 100%);
+}
+#cssvisitante{
+	margin-top: 10px;
+	padding-top:50px;
+	width : 100%;
+	height: 481px;
+	background: -webkit-linear-gradient(left, rgb(66, 132, 40) 0%, rgba(255,146,10,1) 100%);
+}
+#cssfor_eventos{
+	margin-top: 10px;
+	padding-top:50px;
+	width : 100%;
+	height: 481px;
+	background: -webkit-linear-gradient(left, rgb(66, 132, 40) 0%, rgba(255,146,10,1) 100%);
+}
+#css_pagos{
+	margin-top: 10px;
+	padding-top:50px;
+	width : 100%;
+	height: 481px;
+	background: -webkit-linear-gradient(left, rgb(66, 132, 40) 0%, rgba(255,146,10,1) 100%);
+}
+#nav { 
+	width: 1100px;
+    height: 50px;
+    background-color: green;
+
+}
+
+
+#contenedorprincipal {
+	
+	 width: 1100px;
+     height: 500px;
+	 background-color:white;
+	 text-align:;
+}
+	
+header{
+
+width: 100%;
+/*temporal*/
+height: 200px;
+background-image: url('../img/logo.fw.png');
+}
+
+
+
+body{
+	margin:auto;
+	width: 1100px;
+	background:white;
+	font-family: helvetica;
+	height: 600px;
+
+}
+
+
+}
+
+
+#logeo{
+	width:200px;
+	height:200px;
+	/* temporal */
+	text-align: right;
+	padding-top: 50px;
+	float: left;
+	
+}
+
+#logeo h4 {
+	text-decoration: none;
+	color: black;
+	
+}
+
+#logeo h4 a{
+	text-decoration: none;
+	color: black;
+	
+}
+#contenido{
+	padding-top: 20px;
+	width: 1100px;
+	height: 764px;	
+}
+#eventos{
+	float: left;
+    padding-top:5px; 
+	width: 650px;
+    height: 700px;
+    background:;
+    text-align:center;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.75);
+    background-color: gray;
+    position: relative;
+  
+
+  
+ }
+ #noticias{
+	float: left;
+    padding-top:5px; 
+	width: 450px;
+    height: 700px;
+    text-align:center;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.75);
+    background-color: gray;
+    position: relative;
+
+  
+ }
+ #reserva{
+	float: left;
+    padding-top:5px; 
+	width: 1100px;
+    height: 100px;
+    background:;
+    text-align:center;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.75);
+    background-color: gray;
+    position: relative;
+  
+
+   
+  
+ }
+
+ #facturadetalle_logo{
+	
+    padding-top:3px; 
+	width: 120px;
+    height: 200px;
+    background-image: url('../img/logocr.png');
+    color:black;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.75);
+  
+
+   
+  
+ }
+
+footer{
+	/*temporal*/
+	background-image: url('../img/footer.fw.png');
+	box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.75);
+	height: 200px;
+	margin-top: 5px;
+	width: 100%;
+}

@@ -1,0 +1,49 @@
+
+ul, ol{
+	list-style: none;
+}
+
+.nav {
+	width:300%;
+	height: 50px; /*Le establecemos un ancho*/
+	margin:0 auto; /*Centramos automaticamente*/
+}
+ 
+
+.nav > li {
+	float:left;
+}
+			
+.nav li a {
+	background-color: green;
+	color:#fff;
+	list-style: none;
+	text-decoration:none;
+	padding:16px 17px;
+	display:block;
+	text-align: center;
+}
+			
+.nav li a:hover {
+	background-color:#434343;
+	padding:16px 30px;
+			}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:150px;
+			}
+			
+.nav li:hover > ul {
+	display:block;
+}
+			
+.nav li ul li {
+	position:relative;
+}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
