@@ -1,13 +1,14 @@
 
+
 <?php
 	// Permite incluir el script de un archivo, en el archivo donde es llamado
 	//include_once, Permite una solo inclusión del archivo
 	Include_once('header.php');
 	Include_once('php/menu.php');
 ?>
-				<div id="cssvisitante">				
+				<div>				
 
-				<form action="reg_vis.php" method="post">
+				<form action="php/reg_vis.php" method="post">
 					<table align="center">
 						<tr class="formulario_vis">
 						<h1 class="titulo">Ingreso de Visitantes</h1>
@@ -54,9 +55,11 @@
 						<tr class="formulario_vis2">
 						<td>Email</td>
 						<td><input type="text"  name="email"></td>
+						</tr>
 
-							
-
+						<tr class="jhon2">
+						<td>Fecha ingreso</td>
+						<td><input type="date"  name="fecha_ingreso"></td>
 						</tr>
 
 						
