@@ -8,7 +8,7 @@
 
 <div id="cssresidente">				
 
-				<form action="php/reg_res.php" method="post">
+				<form action="php/reg_empleados.php" method="post">
 					<table align="center">
 						
 						<tr class="formulario">
@@ -29,14 +29,6 @@
 
 						</tr>
 
-						<tr class="formulario">
-						<td>celular</td>
-						<td><input type="number"  name="celular"></td>
-
-						</tr>
-
-
-
 						<tr class="formulario1">
 						<td>Email</td>
 						<td><input type="text"  name="email"></td>
@@ -50,8 +42,10 @@
 
 							<td>Funcion</td>
 							<td><select  name="funcion">
-                             <option value="serviciosgenerales"> Servicios Generales  </option>
-                             <option value="Arrendatario"> Arrendatario </option>
+                             <option value="serviciosgenerales"> Servicios Aseo General  </option>
+                             <option value="guarda"> Guarda de seguridad </option>
+                             <option value="cotero"> Arreglos Generales </option>
+
 
 							 </td>
 						</tr>
