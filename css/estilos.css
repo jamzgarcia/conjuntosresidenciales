@@ -140,6 +140,13 @@
 	height: 167px;
 	text-align: right;
 }
+
+.imagenvisitante{
+	width: 205px;
+	height: 107px;
+	margin-left: 450px;
+
+}
 #formulariopagos{
 	width: 500px;
 	height: 300px;
@@ -148,6 +155,7 @@
 
 
 #banner1{
+	background-image: url('../img/titulo.png');
 	margin-top: 10px;
 	padding-top:50px;
 	width : 100%;
