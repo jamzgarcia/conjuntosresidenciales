@@ -1,6 +1,7 @@
 <?php if(isset($_SESSION['email'])){ ?>
 			
 
+
 	<?php if ($_SESSION['rol']=='admin') { ?>
 
 <div id="nav">
@@ -18,7 +19,7 @@
 							<li><a href="interior.php">Ing Interior</a></li>
 							<li><a href="formulario_pro.php">Ing Propietario</a></li>
 							<li><a href="formulario_res.php">Ing Recidente</a></li>
-							<li><a href="formulario_vis.php">Ing Visitante</a></li>
+							<li><a href="formulario_empleados.php">Ing empleado</a></li>
 							
 							</ul>
 						</li>
@@ -46,7 +47,7 @@
 </div>
 
 
-<?php } else { ?>	
+<?php } elseif ($_SESSION['rol']=='cliente') { ?>	
  
  
 
@@ -65,9 +66,29 @@
 			</nav>
 		</div>
 </div>
-		<?php } ?>
+		
 
-		<?php } else { ?>
+		<?php } elseif ($_SESSION['rol']=='guarda')  {?>
+			<div id="nav">
+			<div class="FI" id="menu">
+			<nav>
+			
+				<ul  class="nav">
+					<li><a href="index.php" >Inicio</a></li>
+					<li><a href="formulario_vis.php">Ing Visitante</a></li>	
+					<li><a> Visitantes</a>
+						<ul>
+						<li><a href="formulariovervisitante.php">ver visitantes</a></li>		
+					<li><a href="contacto.php">Guarda</a></li>					
+				    </li>	
+
+				</ul>
+			</nav>
+			</nav>
+		</div>
+		</div> 
+
+		<?php } }else { ?>
 
 <div id="nav">
 			<div class="FI" id="menu">
@@ -84,4 +105,4 @@
 			</nav>
 		</div>
 </div>
-		<?php } ?>
+		<?php } ?>  
